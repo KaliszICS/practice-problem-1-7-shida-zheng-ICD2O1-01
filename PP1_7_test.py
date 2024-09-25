@@ -130,7 +130,7 @@ def test_q3_2(capsys):
 	except:
 		sys.exit()
 
-	input_values = ["a"]
+	input_values = ["a "]
 
 	def mock_input(s):
 		print(s, end='')
