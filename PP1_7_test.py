@@ -5,7 +5,7 @@ import PP1_7
 def test_q1_1(capsys):
 
 	try:
-		exists = os.path.exists(f"{fileName}.py")
+		exists = os.path.exists("PP1_7.py")
 		assert exists
 	except:
 		sys.exit()
@@ -17,7 +17,7 @@ def test_q1_1(capsys):
 def test_q2_1(capsys):
 
 	try:
-		exists = os.path.exists(f"{fileName}.py")
+		exists = os.path.exists("PP1_7.py")
 		assert exists
 	except:
 		sys.exit()
@@ -36,7 +36,7 @@ def test_q2_1(capsys):
 def test_q3_1(capsys):
 
 	try:
-		exists = os.path.exists(f"{fileName}.py")
+		exists = os.path.exists("PP1_7.py")
 		assert exists
 	except:
 		sys.exit()
@@ -55,7 +55,7 @@ def test_q3_1(capsys):
 def test_q4_1(capsys):
 
 	try:
-		exists = os.path.exists(f"{fileName}.py")
+		exists = os.path.exists("PP1_7.py")
 		assert exists
 	except:
 		sys.exit()
@@ -74,7 +74,7 @@ def test_q4_1(capsys):
 def test_q5_1(capsys):
 
 	try:
-		exists = os.path.exists(f"{fileName}.py")
+		exists = os.path.exists("PP1_7.py")
 		assert exists
 	except:
 		sys.exit()
@@ -93,7 +93,7 @@ def test_q5_1(capsys):
 def test_q1_2(capsys):
 
 	try:
-		exists = os.path.exists(f"{fileName}.py")
+		exists = os.path.exists("PP1_7.py")
 		assert exists
 	except:
 		sys.exit()
@@ -106,7 +106,7 @@ def test_q1_2(capsys):
 def test_q2_2(capsys):
 
 	try:
-		exists = os.path.exists(f"{fileName}.py")
+		exists = os.path.exists("PP1_7.py")
 		assert exists
 	except:
 		sys.exit()
@@ -125,12 +125,12 @@ def test_q2_2(capsys):
 def test_q3_2(capsys):
 
 	try:
-		exists = os.path.exists(f"{fileName}.py")
+		exists = os.path.exists("PP1_7.py")
 		assert exists
 	except:
 		sys.exit()
 
-	input_values = ["a"]
+	input_values = ["a "]
 
 	def mock_input(s):
 		print(s, end='')
@@ -144,7 +144,7 @@ def test_q3_2(capsys):
 def test_q4_2(capsys):
 
 	try:
-		exists = os.path.exists(f"{fileName}.py")
+		exists = os.path.exists("PP1_7.py")
 		assert exists
 	except:
 		sys.exit()
@@ -163,7 +163,7 @@ def test_q4_2(capsys):
 def test_q5_2(capsys):
 
 	try:
-		exists = os.path.exists(f"{fileName}.py")
+		exists = os.path.exists("PP1_7.py")
 		assert exists
 	except:
 		sys.exit()
@@ -182,7 +182,7 @@ def test_q5_2(capsys):
 def test_q1_3(capsys):
 
 	try:
-		exists = os.path.exists(f"{fileName}.py")
+		exists = os.path.exists("PP1_7.py")
 		assert exists
 	except:
 		sys.exit()
@@ -194,7 +194,7 @@ def test_q1_3(capsys):
 def test_q2_3(capsys):
 
 	try:
-		exists = os.path.exists(f"{fileName}.py")
+		exists = os.path.exists("PP1_7.py")
 		assert exists
 	except:
 		sys.exit()
@@ -213,7 +213,7 @@ def test_q2_3(capsys):
 def test_q3_3(capsys):
 
 	try:
-		exists = os.path.exists(f"{fileName}.py")
+		exists = os.path.exists("PP1_7.py")
 		assert exists
 	except:
 		sys.exit()
@@ -232,7 +232,7 @@ def test_q3_3(capsys):
 def test_q4_3(capsys):
 
 	try:
-		exists = os.path.exists(f"{fileName}.py")
+		exists = os.path.exists("PP1_7.py")
 		assert exists
 	except:
 		sys.exit()
@@ -251,7 +251,7 @@ def test_q4_3(capsys):
 def test_q5_3(capsys):
 
 	try:
-		exists = os.path.exists(f"{fileName}.py")
+		exists = os.path.exists("PP1_7.py")
 		assert exists
 	except:
 		sys.exit()
