@@ -1,7 +1,6 @@
 # Instructions  
 
 # Practice Problem 1.7
-
 1. Output the boolean value True
 
 </br>
