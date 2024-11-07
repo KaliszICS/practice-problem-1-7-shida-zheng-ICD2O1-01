@@ -11,7 +11,7 @@ def q2():
   print(bool1)
 def q3():
   #Write code here
-  letter = input("Input the letter a:")
+  letter = input("Input the letter a: ")
   bool2 = (letter == "a")
   print(bool2)
 def q4():
